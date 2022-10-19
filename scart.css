@@ -1,0 +1,70 @@
+body
+{
+    font: 20px Arial, sans-serif;
+margin:20px;    
+}
+.circle {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    font: 15px Arial, sans-serif;
+    
+  }
+  div.card {
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    
+  }
+  .item
+  {
+    padding:20px;
+
+  }
+  
+  .grid-container
+  {
+    grid-gap:20px 15px;
+    text-align:center;
+    display:inline-grid;
+    box-shadow: 0px 4px 8px rgba(0, 4, 8, 0.3);
+    grid-template-columns: auto auto auto auto;
+  }
+  
+  .backgnd
+  {
+    background-color: #D4D4D4;
+    padding:50px;
+  }
+  .star
+  {
+    color: #ececec;
+    font-size:40px;
+  }
+  .star:hover
+  {
+color:yellow;
+  }
+
+  .iconbtn
+  {
+    padding:12px 16px;
+    margin:15px;
+  }
+  .iconbtn:hover
+  {
+    background-color: black;
+    color:white;
+    margin:15px;
+  }
+  
+  .btnhover:hover
+  {
+background-color: black;
+color:white;
+  }
